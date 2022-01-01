@@ -1,0 +1,311 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.home {
+    background-image: url('Pics/pet-supplies-blog-banner.png');
+    opacity: 0.75;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+    padding: 20% 5%;
+    font-weight: bold;
+}
+
+.home2 {
+    background-image: url('Pics/Capture2.PNG');
+    opacity: 1;
+    background-size: cover;
+    
+    text-align: center;
+    color: white;
+    padding: 20% 5%;
+    font-weight: bold;
+}
+
+.home-h6 {
+    padding: 2% 20%;
+}
+
+#motto {
+    background-color: #151515;
+    padding: 10% 5%;
+    color: white;
+    text-align: center;
+}
+
+#showme {
+    animation: cssAnimation 0s 2s forwards;
+    visibility: hidden;
+}
+
+@keyframes cssAnimation {
+    to {
+        visibility: visible;
+    }
+}
+
+#all_dept {
+    text-align: center;
+    color: #151515;
+    margin: 5% 5%;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.fas {
+    padding: 3%;
+}
+
+.fab {
+    padding: 3%;
+}
+
+.about-section {
+    background: url(pic.jpg) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 50px 30px;
+}
+
+.inner-container {
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: white;
+    border: 5px solid rgb(85, 85, 85);
+    padding: 50px;
+    border-color: cornflowerblue;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 20px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section {
+        padding: 0;
+    }
+    .inner-container {
+        padding: 60px;
+    }
+}
+
+.shadow-effect {
+    background: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    border: 8px solid #6495ED;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-effect1 {
+    background: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    border: 8px solid #6495ED;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+
+.testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: #6495ED;
+    padding: 9px 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+
+#customers-testimonials .item {
+    text-align: center;
+    caption-side: 50px;
+    margin-bottom: 80px;
+    opacity: 0.2;
+    transform: scale3d(0.8, 0.8, 1);
+    transition-duration: 0.01s;
+}
+
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    transform: scale3d(1.0, 1.0, 1);
+}
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 150px;
+    margin: 0 auto 17px;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #6495ED;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+
+#customers-testimonials.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+    background: #6495ED;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition-duration: 0.01s;
+    width: 20px;
+}
+
+.events {
+    background-color: #000000;
+}
+
+
+
+.nd_Section {
+height: 600px;
+width: 200px;
+background-color: #000000;
+background-position: right;
+}
+
+.mySidebar{
+
+background-color: #000000;
+
+}
+
+
+.team{
+    text-align: center;
+    color: #151515;
+    margin: 5% 5%;
+    padding-left: 200px;
+}
+
+.image{
+    position: relative;
+    width: 200px;
+}
+
+.image2{
+    position: relative;
+
+    width: 310px;
+    height: 200px;
+    background-image: url("Pics/quote.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.member-img{
+    display: block;
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.member-img2{
+    display: block;
+    height: 200px;
+    width: 100%;
+
+}
+
+.Opening1{
+    background: url('Pics/bulldog\ pup_full.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.Opening{
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+.Log-in input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    background: #000000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Log-in input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "shadib-s-petshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soykothosen/shadib-s-petShop.git"
+  },
+  "author": "Soykot Hosen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soykothosen/shadib-s-petShop/issues"
+  },
+  "homepage": "https://github.com/soykothosen/shadib-s-petShop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}

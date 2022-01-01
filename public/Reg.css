@@ -1,0 +1,261 @@
+body{
+    background-image: url('Pics/dog-house-home-backyard-wooden-fence-background-d-illustration-doghouse-domestic-animal-pet-empty-food-bowl-shed-213553130.jpg');
+    opacity: 1;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 20% 5%;
+    font-weight: bold;
+
+}
+
+section{
+    height: 800px;
+    width: 400px;
+    background-image: url(/Pics/38350.jpg);
+}
+
+.Log-in{
+    width: 820px;
+    height: 620px;
+    color: #fff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10%;
+
+}
+
+.Opening{
+
+    background: rgb(190, 190, 190) ;
+    background-size: cover;
+
+}
+
+.Opening1{
+    background: url('Pics/Opening.jpg');
+    background-size: cover;
+}
+
+
+
+.LOGO{
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: calc(50% - 50px);
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Log-in p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.Log-in input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Log-in input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.Log-in input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Log-in input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+.Log-in a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(128, 107, 107);
+}
+
+
+.Log-in a:hover{
+    color: #ffc107;
+}
+.btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #EFE9F4, #5078F2);
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+.Log-in [class="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #EFE9F4, #5078F2);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/*banner section*/
+
+#banner {
+    background-image: linear-gradient(to right, #EFE9F4, #5078F2);
+    color: #009933;
+    padding-top: 3%;
+}
+
+.promo-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #009933;
+    text-decoration: none;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+
+/*services*/
+
+#services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #ffa31a;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #ffa31a;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
