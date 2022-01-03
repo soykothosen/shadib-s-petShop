@@ -63,7 +63,13 @@
                         <a class="nav-link" href="#">Pet Info.</a>
                     </li>
                     <li class="nav-item">
+                     <% if(loged == 0){ %>
                         <a class="nav-link" href="/login">Log In</a>
+                        <% } else { %>
+
+                        <a class="nav-link" href="#"><%= username %></a>
+
+                        <%  } %>
                     </li>
                     
                 </ul>
